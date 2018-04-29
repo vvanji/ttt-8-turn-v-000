@@ -36,6 +36,6 @@ def turn(board)
     move(board, index, character = "X")
     display_board(board)
   else
-    puts "Please try again"
+    turn(board)
   end
 end
